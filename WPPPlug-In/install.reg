@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\PowerPoint\Addins\WPPPlug_In.WPPAddIn]
+"FriendlyName"="WPP插件"
+"Description"="我的第一个WPP插件"
+"LoadBehavior"=dword:00000003
+"CommandLineSafe"=dword:00000001
+[HKEY_CURRENT_USER\Software\Kingsoft\Office\WPP\AddinsWL]
+"WPPPlug_In.WPPAddIn"=""

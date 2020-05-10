@@ -1,0 +1,13 @@
+<customUI onLoad="RibbonLoad" loadImage="GetRibbonImage" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon startFromScratch="false">
+		<tabs>
+			<tab id="penTab" label="±Ê" visible="true" insertAfterMso="TabDeveloper">
+				<group id="btn_group"> 
+					<button id="pencil_btn" label="Ç¦±Ê" onAction="PencilButton_Click"  image="Project" size="large"/>
+					<button id="watercolor_btn" label="Ë®²Ê±Ê" onAction="WatercolorButton_Click"  image="Calculate" size="large"/>
+					<button id="ok_btn" label="Hello" onAction="OkButton_Click"  image="Project" size="large"/>
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
